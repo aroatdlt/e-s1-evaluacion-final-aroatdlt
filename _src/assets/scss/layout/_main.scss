@@ -47,3 +47,46 @@
     width: 320px;
     height: 624px;
 }
+
+.title_section_2 {
+    font-family: $font-family-secondary;
+    color: $color-primary;
+    font-size: $font-size-quaternary;
+    font-weight: $font-weight-primary;
+    line-height: $line-height-secondary;
+}
+
+.title_reason {
+    font-family: $font-family-secondary;
+    color: $color-primary;
+    font-size: $font-size-quinary;
+    font-weight: $font-weight-primary;
+    line-height: $line-height-secondary;
+}
+
+.reason {
+    font-family: $font-family-primary;
+    color: $color-primary;
+    font-size: $font-size-quinary;
+    line-height: $line-height-secondary;
+    font-weight: $font-weight-secondary;
+}
+
+.container_link_reasons {
+    width: 184px;
+    height: 45px;
+    border-radius: 22.5px;
+    background-color: $background-color-tertiary; 
+    text-align: center;
+}
+
+.link_reasons {
+    text-decoration: none;
+    color: $color-quaternary;
+    font-family: $font-family-primary;
+    font-size: $font-size-sexagenarian;
+    font-weight: $font-weight-tertiary;
+}
+
+
+

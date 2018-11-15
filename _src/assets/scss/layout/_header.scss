@@ -25,12 +25,9 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    align-content: flex-end;
-    height: 400px;
-    width:290px;
-    margin: 0 auto;
+    height: 100%;
+    width: 290px;
     text-align: center;
-    padding-bottom: 53px;
 }
 
 .principal_title {
@@ -38,12 +35,15 @@
     font-size: $font-size-primary;
     font-weight: $font-weight-primary;
     line-height: $line-height-primary;
+    text-transform: uppercase;
+    padding: 0 15px;
 }
 
 .principal_paragraph {
    color: $color-quaternary; 
    font-size: $font-size-secondary;
    font-weight: $font-weight-secondary;
+   padding: 0 15px;
 }
 
 .arrow_continue {
@@ -51,5 +51,10 @@
     border-radius: 50%; 
     width: 45px;
     height: 45px;
-    text-align: center;
+    margin: 53px 137px 53px 138px;
+}
+
+.link_bottom {
+    display: inline-block;
+    padding-top: 12px;
 }

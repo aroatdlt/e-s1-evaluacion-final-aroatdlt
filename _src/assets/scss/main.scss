@@ -1,11 +1,7 @@
-@import 'core/variables';
 
-@import 'layout/header';
-
-@import 'layout/footer';
-
-@import 'layout/grid';
-
-.pages {
-    background-color: pink;
+.page {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    
 }

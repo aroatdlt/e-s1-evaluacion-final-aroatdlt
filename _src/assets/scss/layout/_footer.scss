@@ -1,19 +1,24 @@
 .page_footer {
     min-height: 128px;
     background-color: $background-color-secondary;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .arrow_bottom {
     background-color: $background-color-primary;
     height: 45px;
-    width:45px;
+    width: 45px;
     border-radius: 50%;
+    text-align: center;
+    padding-top: 10px;
+    position: relative;
+    transform: translateY(-50%);
 }
 
 .container_text_footer {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
+
 }
 
 .text_footer {
@@ -21,6 +26,7 @@
     font-family: $font-family-primary;
     font-size: $font-size-tertiary;
     line-height: $line-height-secondary;
+    text-align: center;
 }
 
 .heart {

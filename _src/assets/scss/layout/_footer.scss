@@ -1,0 +1,29 @@
+.page_footer {
+    max-height: 128px;
+    background-color: $background-color-secondary;
+}
+
+.arrow_bottom {
+    background-color: $background-color-primary;
+    height: 45px;
+    width:45px;
+    border-radius: 50%;
+}
+
+.container_text_footer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.text_footer {
+    color: $color-quaternary;
+    font-family: $font-family-primary;
+    font-size: $font-size-tertiary;
+    line-height: $line-height-secondary;
+}
+
+.heart {
+    text-decoration: none;
+    color: $color-sexagenarian;
+}

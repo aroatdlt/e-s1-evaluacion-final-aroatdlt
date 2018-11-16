@@ -62,6 +62,7 @@
     font-weight: bold;
     border: 5px solid $color-sexagenarian;
     padding-top: 6px;
+    cursor: pointer;
 }
 
 .container_section_2 {
@@ -83,6 +84,7 @@
 
 .title_section_2:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .item {
@@ -120,6 +122,10 @@
     margin: 45px auto 60px auto;
     width: 184px;
     height: 45px;
+}
+
+.container_link_reasons:hover {
+    cursor: pointer;
 }
 
 /*Styles for tablet*/

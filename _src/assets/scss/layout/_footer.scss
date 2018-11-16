@@ -15,6 +15,24 @@
     padding-top: 10px;
     position: relative;
     transform: translateY(-50%);
+    animation-name: intro;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+
+@keyframes intro {
+    from {
+        transform: translateY(-50%);
+    }
+    to {
+        transform: translateY(-100%);
+    }
+}
+
+.arrow_bottom:hover {
+    transform: translateY(-100%);
+    animation: 10s linear intro;
 }
 
 .container_text_footer {

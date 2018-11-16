@@ -50,7 +50,6 @@
   font-weight: $font-weight-secondary;
   padding: 0 15px;
   margin: 10px 0 45px 0;
-
 }
 
 .arrow_continue {
@@ -59,7 +58,26 @@
   width: 45px;
   height: 45px;
   margin-bottom: 53px;
+  animation-name: continue;
+  animation-duration: 1s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
 }
+
+@keyframes continue {
+  from {
+    transform: translateY(-30%);
+  }
+
+  to {
+    transform: translateY(10%);
+  }
+}
+
+.arrow_continue:hover {
+  animation-play-state: paused;
+}
+
 
 .link_bottom {
   display: inline-block;

@@ -35,7 +35,7 @@
 }
 
 .go_buttom {
-    text-decoration: none; 
+    color: $color-sexagenarian;
     border: 2px solid $color-sexagenarian;
     border-radius: 22.5px;
     width: 76px;
@@ -43,11 +43,6 @@
     text-align: center;
     margin-top: 30px;
     padding-top: 10px;
-}
-
-.go_link {
-    text-decoration: none;
-    color: $color-sexagenarian;
 }
 
 .go_buttom:hover {
@@ -103,18 +98,14 @@
     border-radius: 22.5px;
     background-color: $background-color-tertiary; 
     text-align: center;
-    padding-top: 10px;
-    margin: 45px 68px 60px 68px;
-    width: 184px;
-    height: 45px;
-}
-
-.link_reasons {
-    text-decoration: none;
     color: $color-quaternary;
     font-family: $font-family-primary;
     font-size: $font-size-sexagenarian;
     font-weight: $font-weight-tertiary;
+    padding-top: 10px;
+    margin: 45px 68px 60px 68px;
+    width: 184px;
+    height: 45px;
 }
 
 /*Styles for tablet*/

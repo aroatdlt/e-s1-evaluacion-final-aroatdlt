@@ -52,8 +52,8 @@
 }
 
 .go_buttom:hover {
-    border: 5px solid $color-sexagenarian;
     font-weight: bold;
+    border: 5px solid $color-sexagenarian;
     padding-top: 6px;
 }
 
@@ -129,6 +129,7 @@
     
     .main_title_article {
         font-size: 26px;
+        line-height: $line-height-tertiary;
     }
 
     .description {

@@ -1,5 +1,5 @@
 .page__header {
-    background-image: url('/assets/images/cover.jpg');
+    background-image: url('../images/cover.jpg');
     background-size: cover;
     min-width: 100vw;
     height: 568px;
@@ -78,6 +78,22 @@
     }
 
     .principal_paragraph {
-        font-size: 24px;
+        font-size: $font-size-quaternary;
+    }
+}
+
+/*Styles for desktop*/
+
+@media all and (min-width: 1200px){
+    .page__header {
+        min-height: 768px;
+    }
+    .principal_title {
+        font-size: 100px;
+        line-height: 132px;
+        max-width: 730px;
+    }
+    .arrow_continue {
+        margin-bottom: 13px;
     }
 }

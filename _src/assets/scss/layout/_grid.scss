@@ -1,20 +1,20 @@
 .container_section_2 {
-    display: grid;
-    grid-template-rows: repeat(3, auto);
-    grid-template-columns: 1fr;
-    align-items: center;
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  grid-template-columns: 1fr;
+  align-items: center;
 }
 
 .title_section_2 {
-    display:inline-block;
-    grid-row: 1 / 2;
+  display: inline-block;
+  grid-row: 1 / 2;
 
 }
 
 .list {
-    grid-row: 2 / 3;
+  grid-row: 2 / 3;
 }
 
 .container_link_reasons {
-    grid-row: 3 / 4;
+  grid-row: 3 / 4;
 }

@@ -1,3 +1,10 @@
+.anchor {
+    position: relative;
+    z-index: 0;
+    top: -50px;
+    left: 0;
+}
+
 .container_section_1 {
     display:flex;
     flex-direction: column;
@@ -118,6 +125,10 @@
 /*Styles for tablet*/
 
 @media all and (min-width: 768px) {
+    .anchor {
+        top: -20px;
+    }
+
     .container_section_1 {
         padding: 30px 39px 60px 39px;
         margin: 0;
@@ -187,6 +198,11 @@
 /*Styles in desktop version*/
 
 @media all and (min-width: 1200px) {
+    .anchor {
+        top: 225%;
+        left: 2%;
+    }
+
     .container_section_1 {
         max-width: 768px;
         padding: 60px 0;

@@ -1,4 +1,4 @@
-/*order of the variables according to their appearance*/
+/*order of the color variables according to their appearance*/
 
 $color-primary: #000000;
 $color-secondary: #304268;
@@ -11,3 +11,23 @@ $background-color-primary: #ffffff;
 $background-color-secondary:  #304268;
 $background-color-tertiary: #f26002;
 $background-color-quarternary: #0271bc;
+
+/*order of the font variables according to their appearance*/
+
+$font-family-primary: 'Roboto', sans-serif;
+$font-family-secondary: 'Roboto Slab', serif;
+
+$font-size-primary: 42px;
+$font-size-secondary: 16px;
+$font-size-tertiary: 14px;
+$font-size-quaternary: 24px;
+$font-size-quinary: 18px;
+$font-size-sexagenarian: 20px; 
+
+$font-weight-primary: 700;
+$font-weight-secondary: 400;
+$font-weight-tertiary: 500;
+
+$line-height-primary: 55px;
+$line-height-secondary: 30px;
+$line-height-tertiary: 45px;

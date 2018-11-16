@@ -1,11 +1,12 @@
 .container_section_1 {
     display:flex;
     flex-direction: column;
+    justify-content: center;
     text-align: left;
     margin-top: 30px;
     margin-bottom: 45px;
     padding: 0 15px;
-    height: 376px;
+    max-height: 376px;
     max-width: 100vw;
 }
 
@@ -14,7 +15,8 @@
     font-family: $font-family-primary;
     font-size: $font-size-tertiary;
     font-weight: $font-weight-secondary;
-    height: 30px;
+    height: 25px;
+    text-transform: capitalize;
 }
 
 .main_title_article {
@@ -24,6 +26,7 @@
     line-height: $line-height-secondary;
     font-weight: $font-weight-primary;
     padding-bottom: 15px;
+    text-transform: capitalize;
 }
 
 .description {
@@ -40,15 +43,15 @@
     border-radius: 22.5px;
     width: 76px;
     height: 45px;
+    font-family: $font-family-primary;
+    font-size: $font-size-sexagenarian;
+    font-weight: $font-weight-tertiary;
     text-align: center;
     margin-top: 30px;
     padding-top: 10px;
 }
 
 .go_buttom:hover {
-    width: 100px;
-    height: 70px;
-    padding-top: 20px;
     border: 5px solid $color-sexagenarian;
 }
 
@@ -64,6 +67,7 @@
     font-size: $font-size-quaternary;
     font-weight: $font-weight-primary;
     line-height: $line-height-secondary;
+    text-transform: capitalize;
     padding: 30px 15px 0 15px;;
     text-align: center;
 }
@@ -103,7 +107,7 @@
     font-size: $font-size-sexagenarian;
     font-weight: $font-weight-tertiary;
     padding-top: 10px;
-    margin: 45px 68px 60px 68px;
+    margin: 45px auto 60px auto;
     width: 184px;
     height: 45px;
 }

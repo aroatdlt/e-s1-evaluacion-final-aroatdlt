@@ -93,11 +93,17 @@
     .page__header {
         min-height: 768px;
     }
+
     .principal_title {
         font-size: 100px;
         line-height: 132px;
         max-width: 730px;
     }
+
+    .principal_paragraph {
+        margin: 0;
+    }
+
     .arrow_continue {
         margin-bottom: 13px;
     }

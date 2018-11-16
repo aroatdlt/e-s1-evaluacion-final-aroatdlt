@@ -104,6 +104,7 @@
     border-radius: 22.5px;
     background-color: $background-color-tertiary; 
     text-align: center;
+    text-transform: capitalize;
     color: $color-quaternary;
     font-family: $font-family-primary;
     font-size: $font-size-sexagenarian;
@@ -142,6 +143,7 @@
 
     .title_section_2 {
         font-size: 26px;
+        line-height: $line-height-tertiary;
     }
 
     .title_reason {
@@ -186,8 +188,9 @@
 
 @media all and (min-width: 1200px) {
     .container_section_1 {
-        max-width: 730px;
-        margin: 60px auto;
+        max-width: 768px;
+        padding: 60px 0;
+        margin: 0 auto;
     }
 
     .little_title {
@@ -196,6 +199,7 @@
 
     .main_title_article {
         font-size: 32px;
+        padding-bottom: 30px;
     }
 
     .go_buttom {
@@ -204,6 +208,7 @@
 
     .title_section_2 {
         font-size: 32px;
+        padding-top: 60px;
     }
 
     .container_link_reasons {
@@ -211,7 +216,7 @@
     }
 
     .list {
-        margin: 45px 85px 60px 81.2px;
+        margin: 45px auto 60px auto;
     }
 
     .reason {

@@ -143,7 +143,7 @@
     }
 
     .reason {
-        font-size: $font-size-secondary; 
+        font-size: $font-size-sexagenarian; 
     }
 
     .container_section_1, .container_section_2 {
@@ -172,6 +172,44 @@
 
     .container_link_reasons {
         margin: 0 auto 60px auto;
+    }
+}
+
+/*Styles in desktop version*/
+
+@media all and (min-width: 1200px) {
+    .container_section_1 {
+        max-width: 730px;
+        margin: 60px auto;
+    }
+
+    .little_title {
+        font-size: $font-size-secondary;
+    }
+
+    .main_title_article {
+        font-size: 32px;
+    }
+
+    .go_buttom {
+        width: 160px;
+    }
+
+    .title_section_2 {
+        font-size: 32px;
+    }
+
+    .container_link_reasons {
+        width: 255px;
+    }
+
+    .list {
+        margin: 45px 85px 60px 81.2px;
+    }
+
+    .reason {
+        max-width: 353.8px;
+        max-height: 68px;
     }
 }
 

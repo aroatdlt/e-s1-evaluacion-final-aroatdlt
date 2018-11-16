@@ -89,8 +89,6 @@
     font-size: $font-size-quinary;
     font-weight: $font-weight-primary;
     line-height: $line-height-secondary;
-    width: 184px;
-    height: 30px;
 }
 
 .reason {
@@ -102,13 +100,13 @@
 }
 
 .container_link_reasons {
-    width: 184px;
-    height: 45px;
     border-radius: 22.5px;
     background-color: $background-color-tertiary; 
     text-align: center;
     padding-top: 10px;
     margin: 45px 68px 60px 68px;
+    width: 184px;
+    height: 45px;
 }
 
 .link_reasons {
@@ -142,7 +140,6 @@
 
     .go_buttom {
         width: 91px;
-
     }
 
     .title_section_2 {
@@ -151,6 +148,7 @@
 
     .title_reason {
         font-size: $font-size-quaternary;
+        padding-right: 30px;
     }
 
     .reason {
@@ -159,6 +157,30 @@
 
     .container_section_1, .container_section_2 {
         width: 100%;
+    }
+
+    .container_section_2 {
+        min-height: 397px;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        margin: 45px 40px 60px 35.7px;
+    }
+
+    .item {
+        margin: 0;
+    }
+
+    .reason {
+        margin-top: 14px;
+        margin-right: 27.7px;
+    }
+
+    .container_link_reasons {
+        margin: 0 auto 60px auto;
     }
 }
 

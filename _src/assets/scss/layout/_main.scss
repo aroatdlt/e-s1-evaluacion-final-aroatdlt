@@ -11,6 +11,7 @@
 
 .little_title {
     color: $color-quinary;
+    font-family: $font-family-primary;
     font-size: $font-size-tertiary;
     font-weight: $font-weight-secondary;
     height: 30px;
@@ -18,6 +19,7 @@
 
 .main_title_article {
     color: $color-primary;
+    font-family: $font-family-secondary;
     font-size: $font-size-quaternary;
     line-height: $line-height-secondary;
     font-weight: $font-weight-primary;
@@ -26,6 +28,7 @@
 
 .description {
     color: $color-tertiary;
+    font-family: $font-family-primary;
     font-size: $font-size-quinary;
     line-height: $line-height-secondary;
     font-weight: $font-weight-secondary;
@@ -103,6 +106,40 @@
     font-family: $font-family-primary;
     font-size: $font-size-sexagenarian;
     font-weight: $font-weight-tertiary;
+}
+
+/*Styles for tablet*/
+
+@media all and (min-width: 768px) {
+
+    .little_title {
+        font-size: $font-size-tertiary;
+    }
+    
+    .main_title_article {
+        font-size: 26px;
+    }
+
+    .description {
+        font-size: $font-size-sexagenarian;
+    }
+
+    .go_buttom {
+        width: 91px;
+    }
+
+    .title_section_2 {
+        font-size: 26px;
+    }
+
+    .title_reason {
+        font-size: $font-size-quaternary;
+    }
+
+    .reason {
+        font-size: $font-size-secondary; 
+    }
+
 }
 
 

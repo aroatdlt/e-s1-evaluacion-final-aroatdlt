@@ -12,8 +12,8 @@
     
     <body>
         <div class="page">
-            <header class="page__header">
-                <div class="buttom_menu"> <a class="link-menu" href=""><img class="image_menu" src="assets/images/ico-menu.svg" alt="Icono de menú">
+            <header id="top" class="page__header">
+                <div class="buttom_menu"> <a class="link-menu" href="#main"><img class="image_menu" src="assets/images/ico-menu.svg" alt="Icono de menú">
     </a>
 
                 </div>
@@ -26,7 +26,7 @@
                     </div>
                 </div>
             </header>
-            <main class="page__main">
+            <main id="main" class="page__main">
                 <div class="container_section_1">
                     <article>
                          <h3 class="little_title">Insomnia tips</h3>
@@ -35,43 +35,43 @@
 
                         <p class="description">Donec accusam, nulla ut volutpat porttitor, quam oidio tempus felis, at
                             luctus ex diam nec lectus. Vivamus semper sodales rutrum</p>
-                    </article> <a class="go_buttom" href="">Go</a>
-
-                </div>
-                <div class="container_section_2">
-                    <section>
-                         <h2 class="title_section_2">3 Reasons to purchase</h2>
-
-                        <ul>
-                            <li>
-                                 <h3 class="title_reason">Ut sed metus</h3>
-
-                                <p class="reason">Lorem ipsum dolor sit amet, consecteur.</p>
-                            </li>
-                            <li>
-                                 <h3 class="title_reason">Curabitur ac erat</h3>
-
-                                <p class="reason">Mauris mattis urna quis lorem molestie.</p>
-                            </li>
-                            <li>
-                                 <h3 class="title_reason">Morbi dictum</h3>
-
-                                <p class="reason">Aliquam in dolor et dolor tincidunt.</p>
-                            </li>
-                        </ul>
-                    </section>
-                    <div class="container_link_reasons"> <a class="link_reasons" href="">More reasons</a>
+                    </article>
+                    <div class="go_buttom"> <a class="go_link" href="">Go</a>
 
                     </div>
                 </div>
+                <section class="container_section_2">
+                     <h2 class="title_section_2">3 Reasons to purchase</h2>
+
+                    <ul class="list">
+                        <li class="item">
+                             <h3 class="title_reason">Ut sed metus</h3>
+
+                            <p class="reason">Lorem ipsum dolor sit amet, consecteur.</p>
+                        </li>
+                        <li class="item">
+                             <h3 class="title_reason">Curabitur ac erat</h3>
+
+                            <p class="reason">Mauris mattis urna quis lorem molestie.</p>
+                        </li>
+                        <li class="item">
+                             <h3 class="title_reason">Morbi dictum</h3>
+
+                            <p class="reason">Aliquam in dolor et dolor tincidunt.</p>
+                        </li>
+                    </ul>
+                    <div class="container_link_reasons"> <a class="link_reasons" href="">More reasons</a>
+
+                    </div>
+                </section>
             </main>
             <footer class="page_footer">
-                <div class="arrow_bottom"> <a href=""><img src="assets/images/ico-arrow.svg" alt="arrow to top"></a>
+                <div class="arrow_bottom"> <a href="#top"><img src="assets/images/ico-arrow.svg" alt="arrow to top"></a>
 
                 </div>
                 <div class="container_text_footer">
                     <p class="text_footer">&copy;2017</p>
-                    <p class="text_footer">We <em class="heart"> &#x2764;</em> components</p>
+                    <p class="text_footer">we <strong class="heart"> &#x2764;</strong> components</p>
                 </div>
             </footer>
         </div>

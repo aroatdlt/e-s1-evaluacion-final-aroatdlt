@@ -50,6 +50,13 @@
     color: $color-sexagenarian;
 }
 
+.go_buttom:hover {
+    width: 100px;
+    height: 70px;
+    padding-top: 20px;
+    border: 5px solid $color-sexagenarian;
+}
+
 .container_section_2 {
     width: 320px;
     min-height: 624px;
@@ -64,6 +71,10 @@
     line-height: $line-height-secondary;
     padding: 30px 15px 0 15px;;
     text-align: center;
+}
+
+.title_section_2:hover {
+    text-decoration: underline;
 }
 
 .item {
@@ -140,6 +151,9 @@
         font-size: $font-size-secondary; 
     }
 
+    .container_section_1, .container_section_2 {
+        width: 100%;
+    }
 }
 
 

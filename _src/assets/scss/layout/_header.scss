@@ -88,12 +88,13 @@
 
 @media all and (min-width: 768px) {
   .page__header {
-    width: 100vw;
+    width: 100%;
   }
 
   .principal_title {
     font-size: 80px;
     line-height: 106px;
+    max-width: 750px;
   }
 
   .principal_paragraph {
@@ -116,7 +117,6 @@
   .principal_title {
     font-size: 100px;
     line-height: 132px;
-    max-width: 730px;
   }
 
   .principal_paragraph {
